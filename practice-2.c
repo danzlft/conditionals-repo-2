@@ -85,29 +85,33 @@ int main()
     // Get sum of 3 inputs
     // IF math, phy, chem >= 190 or math and phys >= 140, then print user as passed
 
-    int math, phy, chem;
-    int sum = 0, mpsum = 0;
+    // int math, phy, chem;
+    // int sum = 0, mpsum = 0;
 
-    printf("Input the marks obtained in Math: ");
-    scanf("%d", &math);
+    // printf("Input the marks obtained in Math: ");
+    // scanf("%d", &math);
 
-    printf("Input the marks obtained in Physics: ");
-    scanf("%d", &phy);
+    // printf("Input the marks obtained in Physics: ");
+    // scanf("%d", &phy);
 
-    printf("Input the marks obtained in Chemistry: ");
-    scanf("%d", &chem);
+    // printf("Input the marks obtained in Chemistry: ");
+    // scanf("%d", &chem);
 
-    sum = math + phy + chem;
-    mpsum = math + phy;
-    printf("\nTotal marks of Maths, Physics and Chemistry: %d", sum);
-    printf("\nTotal marks of Maths and Physics: %d", mpsum);
+    // sum = math + phy + chem;
+    // mpsum = math + phy;
+    // printf("\nTotal marks of Maths, Physics and Chemistry: %d", sum);
+    // printf("\nTotal marks of Maths and Physics: %d", mpsum);
 
-    if(sum >= 190){
-        printf("\nThe candidate is eligible for admission.");
-    }
-    else{
-        printf("\nThe candidate is not eligible for admission");
-    }
+    // if(sum >= 190){
+    //     printf("\nThe candidate is eligible for admission.");
+    // }
+    // else{
+    //     printf("\nThe candidate is not eligible for admission");
+    // }
 
+
+    /* Write a C program to read roll no, name and marks of three subjects and 
+    calculate the total, percentage and division. */
+    
     return 0; 
 }
