@@ -3,6 +3,19 @@
 int main()
 {
 
+    // 8. Write a C program to find the largest of three numbers.
+    // Prompt user for 3 inputs.
+    // Display 3 numbers user inputted 
+    // IF num1> num2 && num3, then print out num1 as output
+    // ELSE IF num 2> num1 && num3, then print out num2 as output
+    // ELSE IF num3 > num1 && num2, then print out num3 as output
+    // ELSE print out n and n are the same values
+
+    int num1, num2, num3;
+
+    printf("Input the three numbers to compare: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
     
 
     return 0;
