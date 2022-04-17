@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
 
@@ -79,7 +78,36 @@ int main()
     //     printf("The coordinate point of (%d,%d) lies in the Fourth quadrant", x, y);
     // }
     
+    /* 10. Write a C program to find the eligibility 
+    of admission for a professional course based on the following criteria. */
 
+    // Prompt user for 3 inputs
+    // Get sum of 3 inputs
+    // IF math, phy, chem >= 190 or math and phys >= 140, then print user as passed
+
+    int math, phy, chem;
+    int sum = 0, mpsum = 0;
+
+    printf("Input the marks obtained in Math: ");
+    scanf("%d", &math);
+
+    printf("Input the marks obtained in Physics: ");
+    scanf("%d", &phy);
+
+    printf("Input the marks obtained in Chemistry: ");
+    scanf("%d", &chem);
+
+    sum = math + phy + chem;
+    mpsum = math + phy;
+    printf("\nTotal marks of Maths, Physics and Chemistry: %d", sum);
+    printf("\nTotal marks of Maths and Physics: %d", mpsum);
+
+    if(sum >= 190){
+        printf("\nThe candidate is eligible for admission.");
+    }
+    else{
+        printf("\nThe candidate is not eligible for admission");
+    }
 
     return 0; 
 }
