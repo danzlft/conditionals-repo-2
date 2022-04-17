@@ -110,8 +110,8 @@ int main()
     // }
 
 
-    /* Write a C program to read roll no, name and marks of three subjects and 
+    /* 11. Write a C program to read roll no, name and marks of three subjects and 
     calculate the total, percentage and division. */
-    
+
     return 0; 
 }
